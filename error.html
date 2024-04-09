@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Registration</title>
+<style>
+    .center { margin-top: 150px;border: 5px solid rgb(196, 93, 42);
+        width: 380px; 
+        height: 400px;}
+    .l{
+        background-color:skyblue;
+    }
+    .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+</style>
+</head>
+<body class="l">
+    <div class="header">
+        <h1>Registration form</h1>
+    </div>
+    <form action="/register" method="post">
+        <table class=center align="center">
+        <tr>
+            <td><input type="text" name="Username" placeholder="Enter username" style="width: 250px; height: 30px;background-color: skyblue;" required ></td>
+        </tr>
+        <tr>
+            <td><input type="email" name="email"placeholder="Enter Email" style="width: 250px; height: 30px;background-color: skyblue;" required></td>
+        </tr>
+        <tr>
+             <td><input type="text" name="Dob"placeholder="DD/MM/YYYY" style="width: 250px; height: 30px;background-color: skyblue;" required></td>
+        </tr>
+        <tr>
+            <td><select name="Gender" style="width: 250px; height: 30px;background-color: skyblue;"><br>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option></td>
+        </tr>
+        <tr>
+            <td><input type="password" name="password" placeholder="password"style="width:250px; height: 30px;background-color: skyblue;" required ></td>
+        </tr>
+        <tr>
+            
+            <td><input type="password" name="cpassword" placeholder="Re-type password"required style="width: 250px; height: 30px;background-color: skyblue;"></td>
+        </tr>
+        <tr> 
+            <td><input type="submit" value="Register" style="width: 250px; height: 30px;background-color: blue;"></td>
+        </tr>
+        </table> 
+    </form>
+</body>
+</html>
