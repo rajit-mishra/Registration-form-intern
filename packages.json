@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sucess</title>
+    <style>
+        .center { margin-top: 150px;border: 5px solid rgb(196, 93, 42);
+            width: 380px; 
+            height: 400px;}
+        .font{font-style: italic;
+        background-color: aqua;}
+    </style>
+</head>
+<body>
+    <table class="center" align="center">
+        <tr>
+            <th>
+                <h1 class="font">Your data is sucessfully submited</h1>
+            </th>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
